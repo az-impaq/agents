@@ -88,5 +88,6 @@ def build_oai_function_description(
                 "properties": properties_info,
                 "required": required_properties,
             },
+            "strict": fnc_info.strict,
         },
     }
